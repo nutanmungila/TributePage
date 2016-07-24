@@ -1,0 +1,42 @@
+.container{
+  width:80%;
+  background-color: #D3D3D3;
+  margin:auto;
+  margin-top: 5%;
+
+}
+.block--sec1{
+  text-align: center;
+  font-family: cursive;
+}
+.block--sec2{
+}
+.block__imageblock{
+  height:90%;
+  width: 100%;
+}
+.block__imageblock img{
+  height:90%;
+  width: 80%;
+}
+
+.block__timeline{
+  margin-left: 2%;
+}
+a{
+  text-decoration: none;
+  cursor: auto;
+}
+.footer{
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .block {
+        width: 50%;
+      }
+    .block__imageblock {
+      height:60%;
+    }
+
+}
